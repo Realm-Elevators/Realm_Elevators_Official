@@ -1,0 +1,224 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Tahoma, sans-serif;
+}
+/*Styling of the common tags/styles*/
+:root{
+    --main-color: #ffd700;
+    --third-color: #00ffff;
+    --primary-color: #2a2a2b;
+    --secondary-color: #800000;
+    --gradient: linear-gradient(180deg, #00ffff, #2a2a2b);
+}
+h1{
+    color: var(--main-color);
+    font-size: 60px;
+    font-weight: bolder;
+}
+body{
+    scroll-behavior: smooth;
+}
+h2{
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 36px;
+}
+button{
+    border-radius: 30px;
+    background-color: var(--secondary-color);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+    outline: none;
+    padding: 5px 15px;
+    transition: .5s;
+}
+button:hover{
+    background-color: var(--main-color);
+    color: #000;
+}
+/*Responsiveness of the common tags/styles i.e on smaller screens*/
+@media(max-width: 767px){
+    h1{
+        font-size: 28px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    button{
+        font-weight: 18px;
+    }
+}
+
+
+
+/* Web development styling */
+.intro{
+    margin-top: 100px;
+}
+
+.def h2{
+    text-align: center;
+    padding: 30px 0;
+}
+.def p{
+    text-align: center;
+    margin: 0 200px 0 200px;
+    color: #e4d9d9;
+    background-color: var(--primary-color);
+    padding: 40px;
+    border-radius: 0 20px 0 20px;
+}
+
+.main-h3{
+    text-align: center;
+    padding: 100px 0 50px 0;
+}
+
+.process-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    background-image: url(images/servicepagebg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 0 20px 0;
+}
+
+.cd-1{
+    width: 400px;
+    height: auto;
+    background-color: var(--primary-color);
+    transition: 0.5s;
+    text-align: center;
+    margin: 8px;
+    padding: 8px;
+}
+
+.cd-1 .title{
+    color: var(--main-color);
+}
+.cd-1 p{
+    color: #fff;
+}
+
+.t-services{
+    margin: 40px;
+    
+}
+.cd-2{
+    flex-basis: 50%;
+}
+.t-services .card-l{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0 20px 20px;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.t-services .card-l p{
+    padding: 10px;
+}
+.t-services .card-r{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 20 20px 0;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.t-services-container .card-l img, 
+.t-services-container .card-r img{
+    width: 500px;
+    height: auto;
+    flex-basis: 50%;
+}
+
+.t-services .card-r p{
+    padding: 10px;
+}
+/* Responsivenes Web development */
+
+@media(max-width: 767px){
+    .t-services{
+        margin: 10px;
+    }
+    .cd-2{
+        flex-basis: 100%;
+    }
+    .t-services-container{
+        justify-content: center;
+        align-items: center;
+    }
+    .t-services .card-l{
+        
+        justify-content: center;
+        text-align: center;
+    }
+    .cd-1{
+        width: 100%;
+    }
+    .main-h3{
+        padding: 40px 0 10px 0;
+    }
+    
+    .t-services-container .card-l img, 
+.t-services-container .card-r img{
+    width: 100%;
+    height: auto;
+    margin: 15px;
+    flex-basis: 100%;
+}
+    .t-services .card-l p{
+        padding: 10px;
+    }
+    .t-services .card-r{
+        background: none;
+        flex-wrap: wrap;
+        justify-content: center; 
+        text-align: center;
+        margin-top: 50px;
+        
+    }
+    
+    .t-services .card-r p{
+        padding: 10px;
+    }
+
+    .intro{
+        margin-top: 70px;
+    }
+    
+    .def h2{
+        text-align: center;
+        padding: 15px 0;
+       
+    }
+
+    .def h3{
+        font-size: 30px;
+    }
+    
+    .def p{
+        text-align: center;
+        margin: 10px;
+        color: #e4d9d9;
+        background-color: var(--primary-color);
+        padding: 10px;
+    }
+}
+
+

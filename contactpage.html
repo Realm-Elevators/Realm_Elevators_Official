@@ -1,0 +1,168 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut Icon" type="icon" href="images/mylogo.png">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;0,800;1,500&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="mystyles.css" class="rel" media="all">
+<title>Contact us - Realm Elevators Company</title>
+</head>
+<body>
+
+<!-- Navigation bar -->
+<header>
+    <div class="navbar">
+    <a href="index.html"><img src="images/mylogo.png"></a>
+    <div class="menu-items" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="projects.html">Projects</a>
+            <a href="contactpage.html">Contact</a>
+            <a href="quote.html" class="mybtn">Get a Quote</a>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+    </div>
+</header>
+
+    <!---this is the contact page-->
+    <div class="contact-header">
+        <h1>Contact Us</h1>
+    </div>
+    <h2></h2>
+    <div class="contact-container">
+        <div class="cols-1">
+            <h2>Get In Touch With Us</h2>
+            <p>Our able team will response to you as soon as possible, reach us now!</p>
+            <h4>Call/SMS <span>24/7 for help</span></h4>
+            <ul class="ourcontacts">
+                <li><i class="fa fa-phone"></i> +254746092415</li>
+                <li><i class="fa fa-phone"></i> +254707967928</li>
+                <li><i class="fa fa-phone"></i> +254115580891</li>
+            </ul>
+            <h5><span>Email us through:</span> info@realmelevators.com</h5>
+            <div class="social-links">
+                <h3>Social Media Platforms</h3>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-telegram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="cols-2">
+            <h3>Write us a text message!<br><span>Fields marked with (<sup>*</sup>) are mandatory.</span></h3>
+            <div class="contact-form">
+                <form action="contact.php" method="post">
+                    <label><sup>*</sup>Full Name:</label><br><input type="text" id="name" name="name" placeholder="Eric Edward" required><br>
+                    <label><sup>*</sup>Phone Number:</label><br><input type="text" id="phone" name="phone" placeholder="+1 860045463" required><br>
+                    <label><sup>*</sup>Email Adress:</label><br><input type="email" id="email" name="email" placeholder="example@gmail.com" required><br>
+                    <label><sup>*</sup>Enter Subject:</label><br><input type="text" id="subject" name="subject" placeholder="I want a website for company" required><br>
+                    <label><sup>*</sup>Your Message:</label><br><textarea cols="20" id="message" name="message" rows="5" placeholder="Type here..." required></textarea><br>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+<!---this is the footer-->
+<footer>
+    <div class="footer-container">
+        <div class="footer-card">
+    <img src="images/mylogo.png">
+    <h3>Realm Elevators Company</h3>
+    <p>We are top IT company in Kenya which provides <br>businesses with the tools and 
+        technology they need <br>to achieve their goals.</p>
+        </div>
+        <div class="footer-card">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contactpage.html">Contact Us</a></li>
+                <li><a href="Privacy Policy.html">Privacy Policies</a></li>
+                <li><a href="Terms and Conditions.html">Terms and Conditions</a></li>
+            </ul>
+        </div>
+        <div class="footer-card">
+            <h3>Social Media Accounts <br><span>Reach us through social media!</span></h3>
+            <ul>
+                <li><a href="https://www.facebook.com/profile.php?id=100083023307947&mibextid=ZbWKwL"><i class="fa fa-facebook"></i> Facebook</a></li>
+                <li><a href="https://twitter.com/realm_elevators?t=dEGgPAMdshyoagHUhRDFLQ&s=09"><i class="fa fa-twitter"></i> Twitter</a></li>
+                <li><a href="http://www.linkedin.com/in/realm-elevators-company-8b3760267"><i class="fa fa-linkedin"></i> Linkedin</a></li>
+                <li><a href="https://t.me/realmelevators"><i class="fa fa-telegram"></i> Telegram</a></li>
+            </ul>
+        </div>
+        <div class="footer-card">
+            <h3>Do you have any query? <br><span>Get help now!</span></h3>
+            <ul>
+                <li>Call/SMS 22/7:</li>
+                <li style="color: #00ffff;">+254746092415 or +254115580891 or <br>+254707967928</li>
+                <li>Email us: info@realmelevators.com</li>
+                <button><a href="quote.html" style="color: #fff;">Get a Quote</a></button>
+            </ul>
+        </div>
+    </div>
+
+    <!--this button for whatsapp-->
+<div class="whatsapp-icon" id="whatsappus">
+    <a href="https://wa.me/254778235045"><i class="fa fa-whatsapp"></i> Chat us Now</i></a>
+</div>
+
+    <div class="scrolltotop">
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-long-arrow-up"></i></button>
+        </div>
+        <p class="copyrights">All rights reserved &#169; Realm Elevators Company - <span id="year"></span><script>
+        document.getElementById("year").innerHTML=new Date().getFullYear();
+        </script></p>
+    </footer>
+    <!---javascript for scroll to top button-->
+    <script>
+        // Get the button:
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+    </script>
+    
+    
+    <!---javascript for closing and opening menu on small screens-->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right='0';
+        }
+        function hideMenu(){
+            navLinks.style.right='-220px';
+        }
+        </script>
+
+
+<!--this is scrollreveal js--->  
+<script src="https://unpkg.com/scrollreveal"></script>
+<!---This is the main javascript file-->
+<script src="other/main.js"></script>
+</body>
+</html>
